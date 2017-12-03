@@ -14,6 +14,19 @@
     <h1>Chapter 3 <small>Exploring Bootstrap Components</small></h1>
   </div>
 
+  <!--tabs-->
+  <div class="row">
+    <div class="col-xs-12">
+      <ul class="nav nav-pills nav-stacked">
+        <!--<ul class="nav nav-tabs">-->
+        <li class="active"><a href="#">About</a></li>
+        <li><a href="#">Activity</a></li>
+        <li><a href="#">Linked Pages</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- nested -->
   <div class="panel panel-primary">
     <div class="panel-heading">
       ATTENTION
@@ -27,6 +40,7 @@
     </div>
   </div>
 
+  <!-- nested -->
   <div class="media">
     <a class="pull-left" href="#">
       <img class="img-fluid" src="images/rabbit.png" alt="Syed Fazle Rahman">
@@ -34,8 +48,70 @@
     <div class="media-body">
       <h4 class="media-heading">Awesome piece of work!</h4>
       <p>Lorem ipsum dolor sit ametnim ...</p>
+
+      <!-- Second media object -->
+      <div class="media">
+        <a class="pull-left" href="#">
+          <img class="media-object" src="images/rabbit.png">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Awesome piece of work!</h4>
+          <p>Lorem ipsum dolor sit ametnim ...</p>
+        </div>
+      </div>
+
     </div>
   </div>
+
+  <!--thumbnails-->
+  <div class="row">
+    <div class="col-xs-3">
+      <a href="#" class="thumbnail">
+        <img src="images/rabbit.png">
+        <div class="caption">
+          <h3>SitePoint</h3>
+        </div>
+      </a>
+    </div>
+    <div class="col-xs-3">
+      <a href="#" class="thumbnail">
+        <img src="images/rabbit.png">
+        <div class="caption">
+          <h3>Apple</h3>
+        </div>
+      </a>
+    </div>
+    <div class="col-xs-3">
+      <a href="#" class="thumbnail">
+        <img src="images/rabbit.png">
+        <div class="caption">
+          <h3>Google</h3>
+        </div>
+      </a>
+    </div>
+    <div class="col-xs-3">
+      <div class="thumbnail">
+        <img src="images/rabbit.png">
+        <div class="caption">
+          <h3>Microsoft</h3>
+          <p>Lorem ipsum dolor sit ametnim ...</p>
+          <p><a href="#" class="btn btn-primary">Read More</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--lists and badges -->
+  <div class="row">
+    <div class="col-xs-3">
+      <ul class="list-group">
+        <li class="list-group-item">Inbox<span class="badge">3</span></li>
+        <li class="list-group-item list-group-item-warning">Sent<span class="badge">14</span></li>
+        <li class="list-group-item list-group-item-success">Drafts<span class="badge">25</span></li>
+      </ul>
+    </div>
+  </div>
+
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
